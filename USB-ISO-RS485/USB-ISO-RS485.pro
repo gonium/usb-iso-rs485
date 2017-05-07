@@ -1,4 +1,4 @@
-update=2017 May 07, Sunday 14:56:16
+update=2017 May 07, Sunday 20:09:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=ftdi
 LibName31=usb-iso-rs485
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
