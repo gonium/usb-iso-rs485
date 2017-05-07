@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT232RL
+D USB to Serial Interface, SSOP-28
+K USB Serial
+F http://www.ftdichip.com/Products/ICs/FT232RL.htm
+$ENDCMP
+#
+#End Doc Library
