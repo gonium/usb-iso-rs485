@@ -788,7 +788,7 @@ U 1 1 590FD90C
 P 1700 7350
 F 0 "P5" H 1700 7650 50  0000 C BNN
 F 1 "TST" H 1700 7600 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 1700 7350 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1700 7350 60  0001 C CNN
 F 3 "" H 1700 7350 60  0000 C CNN
 	1    1700 7350
 	0    1    1    0   
@@ -799,7 +799,7 @@ U 1 1 590FD991
 P 2750 7350
 F 0 "P8" H 2750 7650 50  0000 C BNN
 F 1 "TST" H 2750 7600 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 2750 7350 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2750 7350 60  0001 C CNN
 F 3 "" H 2750 7350 60  0000 C CNN
 	1    2750 7350
 	0    1    1    0   
@@ -818,7 +818,7 @@ U 1 1 590FDBBC
 P 1550 6950
 F 0 "P4" H 1550 7250 50  0000 C BNN
 F 1 "TST" H 1550 7200 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 1550 6950 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1550 6950 60  0001 C CNN
 F 3 "" H 1550 6950 60  0000 C CNN
 	1    1550 6950
 	0    1    1    0   
@@ -829,7 +829,7 @@ U 1 1 590FDC54
 P 1500 7150
 F 0 "P3" H 1500 7450 50  0000 C BNN
 F 1 "TST" H 1500 7400 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 1500 7150 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1500 7150 60  0001 C CNN
 F 3 "" H 1500 7150 60  0000 C CNN
 	1    1500 7150
 	0    1    1    0   
@@ -840,7 +840,7 @@ U 1 1 590FDCC6
 P 2550 6950
 F 0 "P6" H 2550 7250 50  0000 C BNN
 F 1 "TST" H 2550 7200 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 2550 6950 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2550 6950 60  0001 C CNN
 F 3 "" H 2550 6950 60  0000 C CNN
 	1    2550 6950
 	0    1    1    0   
@@ -851,7 +851,7 @@ U 1 1 590FDD50
 P 2600 7150
 F 0 "P7" H 2600 7450 50  0000 C BNN
 F 1 "TST" H 2600 7400 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 2600 7150 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2600 7150 60  0001 C CNN
 F 3 "" H 2600 7150 60  0000 C CNN
 	1    2600 7150
 	0    1    1    0   
@@ -884,7 +884,7 @@ U 1 1 590FDF7B
 P 3500 6950
 F 0 "P9" H 3500 7250 50  0000 C BNN
 F 1 "TST" H 3500 7200 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 3500 6950 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3500 6950 60  0001 C CNN
 F 3 "" H 3500 6950 60  0000 C CNN
 	1    3500 6950
 	0    1    1    0   
@@ -895,7 +895,7 @@ U 1 1 590FE001
 P 4200 7050
 F 0 "P11" H 4200 7350 50  0000 C BNN
 F 1 "TST" H 4200 7300 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 4200 7050 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 4200 7050 60  0001 C CNN
 F 3 "" H 4200 7050 60  0000 C CNN
 	1    4200 7050
 	0    1    1    0   
@@ -928,7 +928,7 @@ U 1 1 590FE5A2
 P 3500 7250
 F 0 "P10" H 3500 7550 50  0000 C BNN
 F 1 "TST" H 3500 7500 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 3500 7250 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3500 7250 60  0001 C CNN
 F 3 "" H 3500 7250 60  0000 C CNN
 	1    3500 7250
 	0    1    1    0   
@@ -939,7 +939,7 @@ U 1 1 590FE620
 P 4200 7350
 F 0 "P12" H 4200 7650 50  0000 C BNN
 F 1 "TST" H 4200 7600 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5010-5014_Multipurpose" H 4200 7350 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 4200 7350 60  0001 C CNN
 F 3 "" H 4200 7350 60  0000 C CNN
 	1    4200 7350
 	0    1    1    0   
@@ -948,13 +948,13 @@ Text Notes 750  6600 0    60   ~ 12
 Test points\n
 Wire Notes Line
 	600  6400 5600 6400
-Text GLabel 10400 1450 2    60   Input ~ 0
-TxD
 Text GLabel 10400 1250 2    60   Input ~ 0
-RxD
-Text GLabel 10650 1350 2    60   Input ~ 0
-DE
+TxD
 Text GLabel 10650 1150 2    60   Input ~ 0
+RxD
+Text GLabel 10400 1450 2    60   Input ~ 0
+DE
+Text GLabel 10400 1050 2    60   Input ~ 0
 ~RE
 $Comp
 L GND #PWR021
@@ -970,12 +970,12 @@ $EndComp
 $Comp
 L +5V #PWR022
 U 1 1 590F657C
-P 10400 1000
-F 0 "#PWR022" H 10400 850 50  0001 C CNN
-F 1 "+5V" H 10400 1140 50  0000 C CNN
-F 2 "" H 10400 1000 60  0000 C CNN
-F 3 "" H 10400 1000 60  0000 C CNN
-	1    10400 1000
+P 11000 1350
+F 0 "#PWR022" H 11000 1200 50  0001 C CNN
+F 1 "+5V" H 11000 1490 50  0000 C CNN
+F 2 "" H 11000 1350 60  0000 C CNN
+F 3 "" H 11000 1350 60  0000 C CNN
+	1    11000 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -993,18 +993,6 @@ Wire Wire Line
 	10300 1550 10400 1550
 Wire Wire Line
 	10400 1550 10400 1600
-Wire Wire Line
-	10300 1050 10400 1050
-Wire Wire Line
-	10400 1050 10400 1000
-Wire Wire Line
-	10300 1150 10650 1150
-Wire Wire Line
-	10300 1250 10400 1250
-Wire Wire Line
-	10300 1350 10650 1350
-Wire Wire Line
-	10300 1450 10400 1450
 Wire Wire Line
 	9750 5500 10700 5500
 Wire Wire Line
@@ -1058,4 +1046,14 @@ Wire Wire Line
 	6850 5200 6850 5400
 Text Notes 6450 5100 0    60   ~ 0
 MKP Y2 
+Wire Wire Line
+	10300 1150 10650 1150
+Wire Wire Line
+	10300 1250 10400 1250
+Wire Wire Line
+	10300 1350 11000 1350
+Wire Wire Line
+	10300 1450 10400 1450
+Wire Wire Line
+	10300 1050 10400 1050
 $EndSCHEMATC
