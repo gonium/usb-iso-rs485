@@ -1,8 +1,0 @@
-(module ADM2582E-SOIC20W-Cooling (layer F.Cu) (tedit 59175204)
-  (fp_text reference REF** (at 0 10.16) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value ADM2582E (at 0 -8.89) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-)
