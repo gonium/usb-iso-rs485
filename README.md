@@ -11,6 +11,7 @@
 * Increase width of pcb tracks
 * place terminator jumper at the side (angled pinheader) - make it easy
 	to grab
+* README/Software: Set CBUS3 to PWREN function
 
 # FTDI configuration.
 
