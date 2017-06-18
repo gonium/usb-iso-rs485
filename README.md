@@ -1,15 +1,11 @@
 # TODO
 
 * U2: Mark orientation of FTDI (Pin1 -> bottom right)
-* Silkmask of test points is misplaced -> remove all test points except
-	for VCC/GND on the two planes
 * Connector P1: 
 	* Provide A-B-GND orientation on silkmask
-	* Change connector to [Wago 233-503](https://www.reichelt.de/Klemmleisten/WAGO-233-503/3/index.html?ACTION=3&GROUPID=7539&ARTICLE=31677&OFFSET=100&)
 * U1: Stronger connection of GND pins to groundplane for better heat
   dissipation
 * Copy all footprints to project library
-* Add ferrite bead to VBUS line (see FTDI Appnote 146)
 * Placement of C2 and C4 is twisted in the layout. Change values
 	accordingly.
 * Increase width of pcb tracks
