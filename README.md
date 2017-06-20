@@ -3,8 +3,6 @@
 * U2: Mark orientation of FTDI (Pin1 -> bottom right)
 * Connector P1: 
 	* Provide A-B-GND orientation on silkmask
-* U1: Stronger connection of GND pins to groundplane for better heat
-  dissipation
 * Copy all footprints to project library
 * Placement of C2 and C4 is twisted in the layout. Change values
 	accordingly.
