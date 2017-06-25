@@ -1,14 +1,6 @@
 # TODO
 
-* U2: Mark orientation of FTDI (Pin1 -> bottom right)
-* Connector P1: 
-	* Provide A-B-GND orientation on silkmask
 * Copy all footprints to project library
-* Placement of C2 and C4 is twisted in the layout. Change values
-	accordingly.
-* Increase width of pcb tracks
-* place terminator jumper at the side (angled pinheader) - make it easy
-	to grab
 * README/Software: Set CBUS3 to PWREN function
 
 # FTDI configuration.
