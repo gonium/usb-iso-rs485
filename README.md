@@ -2,6 +2,8 @@
 
 * Copy all footprints to project library
 * README/Software: Set CBUS3 to PWREN function
+* Increase hole diameter for WAGO connector
+* Fix position of silkscreen on bottom
 
 # FTDI configuration.
 
@@ -24,17 +26,41 @@ From the [FTDI USB-RS485 cable documentation]( http://www.ftdichip.com/Support/D
 fail because the nRE line is not toggled. Use the FT_Prog utility to set
 CBUS4 to TXDEN. By default, CBUS4 is set to the "SLEEP" function.
 
+Initially, an USB device may only draw 90mA. 
+
 You can use [Mark Lord's ft232r_prog](http://rtr.ca/ft232r/) to change
 the EEPROM settings. In order to see the current EEPROM content, use
 
     $ ft232r_prog --verbose --dump --old-vid 0x0403 --old-pid 0x6001
 
-In order to set CBUS4, use
+In order to set CBUS3 to PwrEN, CBUS4 to TxDEN, high-current-io on and
+the maximum power consumption to 300 mA, use
 
-    $ ft232r_prog --verbose --dump --old-vid 0x0403 --old-pid 0x6001 --cbus4 TxDEN
+    $ ft232r_prog --verbose --dump --old-vid 0x0403 --old-pid 0x6001 \
+		--cbus3 PwrEn --cbus4 TxDEN --high-current-io on --max-bus-power 300
 
-The adaptor generates the supply voltage for the RS485 line. The maximum
-power draw is 300mA. By default, the FTDI reports only 90mA to the USB
-bus. To change this, use
 
-    $ ft232r_prog --verbose --max-bus-power 300 --old-vid 0x0403 --old-pid 0x6001
+## Platform-specific notes
+
+Under Linux, I could successfully compile the binary just by typing
+``make``. 
+
+On OSX, I needed to add ``/usr/local`` to the Makefile. The
+top two lines now read like this:
+
+    CFLAGS = -Wall -O2 -s -Werror -I/usr/local/include
+    LDFLAGS = -L/usr/local/lib -lusb -lftdi -s
+
+In my case, a FTDI driver claimed the device, preventing the
+``ft232r_prog`` command to communicate with the FTDI. You can list the
+FTDI-related kernel extensions using
+
+    $ kextstat | grep FTDI
+		156    0 0xffffff7f83606000 0x8000     0x8000     com.FTDI.driver.FTDIUSBSerialDriver (2.2.16) 0AB01558-B114-9EF2-1CD9-A13CFA557737 <137 55 5 4 3 1>
+
+Then, to unload the driver, use
+
+    $ sudo kextunload -b com.FTDI.driver.FTDIUSBSerialDriver
+
+for all FTDI drivers you found.
+
