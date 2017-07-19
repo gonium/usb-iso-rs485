@@ -10,7 +10,7 @@ int main() {
   pc.printf("Echoes back to the screen anything you type\n");
 	while (true) {
 		led1 = !led1;
-		wait_ms(2000);
+		wait_ms(200);
     //pc.putc(pc.getc());
   }
 }

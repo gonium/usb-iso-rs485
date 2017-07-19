@@ -1,3 +1,9 @@
+# Compilation & upload
+
+    $ pip install platformio
+    $ platformio run --target upload
+
+
 ## Notes for development under Ubuntu Linux
 
 The ModemManager interferes with the upload process. You kann disable it
