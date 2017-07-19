@@ -1,9 +1,9 @@
 # TODO
 
 * Copy all footprints to project library
-* README/Software: Set CBUS3 to PWREN function
+* Footprint of MOSFET is wrong
 * Increase hole diameter for WAGO connector
-* Fix position of silkscreen on bottom
+* Fix position of silkscreen on bottom layer
 
 # FTDI configuration.
 
@@ -26,7 +26,7 @@ From the [FTDI USB-RS485 cable documentation]( http://www.ftdichip.com/Support/D
 fail because the nRE line is not toggled. Use the FT_Prog utility to set
 CBUS4 to TXDEN. By default, CBUS4 is set to the "SLEEP" function.
 
-Initially, an USB device may only draw 90mA. 
+Initially, an USB device may only draw 90mA.
 
 You can use [Mark Lord's ft232r_prog](http://rtr.ca/ft232r/) to change
 the EEPROM settings. In order to see the current EEPROM content, use
@@ -37,15 +37,19 @@ In order to set CBUS3 to PwrEN, CBUS4 to TxDEN, high-current-io on and
 the maximum power consumption to 300 mA, use
 
     $ ft232r_prog --verbose --dump --old-vid 0x0403 --old-pid 0x6001 \
-		--cbus3 PwrEn --cbus4 TxDEN --high-current-io on --max-bus-power 300
+		--cbus3 PwrEn --cbus4 TxDEN --high-current-io off --max-bus-power 300
 
 
 ## Platform-specific notes
 
-Under Linux, I could successfully compile the binary just by typing
-``make``. 
+### Linux
 
-On OSX, I needed to add ``/usr/local`` to the Makefile. The
+I could successfully compile the binary just by typing
+``make``.
+
+### Mac OS X
+
+I needed to add ``/usr/local`` to the Makefile. The
 top two lines now read like this:
 
     CFLAGS = -Wall -O2 -s -Werror -I/usr/local/include
@@ -63,4 +67,3 @@ Then, to unload the driver, use
     $ sudo kextunload -b com.FTDI.driver.FTDIUSBSerialDriver
 
 for all FTDI drivers you found.
-
