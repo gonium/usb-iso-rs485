@@ -1,5 +1,8 @@
 # An isolated USB-RS485 adapter
 
+**NOTE: I will order some boards of the finished adaptor soon. If you
+want to buy one, please drop me an email: md@gonium.net.**
+
 I connected a lot of USB-RS485 adapters to my [smart meter readout
 software](https://github.com/gonium/gosdm630) and wasn't happy. Either
 the device is cheap and broken or works but is very expensive. The
@@ -26,14 +29,20 @@ The first prototype looks like this:
 
 ![First prototype](img/prototype-v0.1.JPG)
 
-Currently, I have build the second prototype. Please note that the board
+The PCB is too big, and I don't need all those test points any more.
+Therefore, I have build the second prototype. Please note that the board
 is slightly smaller, has a different WAGO connector and unpopulated
 footprints for protection diodes:
 
 ![Second prototype](img/prototype-v0.2.JPG)
 
-The second prototype works quite well. Minor layout changes are needed,
-but the principle is solid.
+The second prototype works quite well. Unfortunately, the holes for the
+WAGO connector are too small -- I needed to drill them bigger. While
+doing so, I destroyed a connection to the "A" pin - the copper wire to
+the right of the WAGO connector replaces the PCB trace I destroyed. In
+addition, the footprint for the MOSFET is wrong.
+
+Minor layout changes are needed, but the principle is solid.
 
 # TODO
 
