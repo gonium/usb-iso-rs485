@@ -1,8 +1,5 @@
 # An isolated USB-RS485 adapter
 
-**NOTE: I will order some boards of the finished adaptor soon. If you
-want to buy one, please drop me an email: md@gonium.net.**
-
 I connected a lot of USB-RS485 adapters to my [smart meter readout
 software](https://github.com/gonium/gosdm630) and wasn't happy. Either
 the device is cheap and broken or works but is very expensive. The
